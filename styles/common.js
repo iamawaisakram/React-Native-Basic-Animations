@@ -34,5 +34,23 @@ export default StyleSheet.create({
   content: {
     height: 3000,
     width: 500
+  },
+  nativePropContainer: {
+    flex: 1,
+    paddingTop: 50
+  },
+  scroll: {
+    flex: 1,
+    opacity: 1
+  },
+  hide: {
+    opacity: 0
+  },
+  show: {
+    opacity: 1
+  },
+  fakeContent: {
+    height: 3000,
+    backgroundColor: 'tomato'
   }
 });

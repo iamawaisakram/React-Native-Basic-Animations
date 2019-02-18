@@ -28,6 +28,7 @@ import Delay from './pages/Delay';
 import Interpolation from './pages/Interpolation';
 import Extrapolate from './pages/Extrapolate';
 import AnimatedComponent from './pages/AnimatedComponent';
+import SetNativeProps from './pages/SetNativeProps';
 
 AppRegistry.registerComponent(appName, () => RootStack);
 
@@ -55,7 +56,8 @@ const RootStack = createStackNavigator(
     Delay,
     Interpolation,
     Extrapolate,
-    AnimatedComponent
+    AnimatedComponent,
+    SetNativeProps
   },
   {
     initialRouteName: 'Main',

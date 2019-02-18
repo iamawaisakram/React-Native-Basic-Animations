@@ -64,6 +64,9 @@ const pages = [
   },
   {
     name: 'AnimatedComponent'
+  },
+  {
+    name: 'SetNativeProps'
   }
 ];
 
