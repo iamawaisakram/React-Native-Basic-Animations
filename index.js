@@ -29,6 +29,8 @@ import Interpolation from './pages/Interpolation';
 import Extrapolate from './pages/Extrapolate';
 import AnimatedComponent from './pages/AnimatedComponent';
 import SetNativeProps from './pages/SetNativeProps';
+import D3Interpolate from './pages/D3Interpolate';
+import D3Svg from './pages/D3Svg';
 
 AppRegistry.registerComponent(appName, () => RootStack);
 
@@ -57,7 +59,9 @@ const RootStack = createStackNavigator(
     Interpolation,
     Extrapolate,
     AnimatedComponent,
-    SetNativeProps
+    SetNativeProps,
+    D3Interpolate,
+    D3Svg
   },
   {
     initialRouteName: 'Main',

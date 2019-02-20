@@ -67,6 +67,12 @@ const pages = [
   },
   {
     name: 'SetNativeProps'
+  },
+  {
+    name: 'D3Interpolate'
+  },
+  {
+    name: 'D3Svg'
   }
 ];
 
