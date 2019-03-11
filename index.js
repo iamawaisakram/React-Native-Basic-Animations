@@ -31,6 +31,9 @@ import AnimatedComponent from './pages/AnimatedComponent';
 import SetNativeProps from './pages/SetNativeProps';
 import D3Interpolate from './pages/D3Interpolate';
 import D3Svg from './pages/D3Svg';
+import Point99Cliff from './pages/Point99Cliff';
+import AnimateHidden from './pages/AnimateHidden';
+import PointerEventHandling from './pages/PointerEventHandling';
 
 AppRegistry.registerComponent(appName, () => RootStack);
 
@@ -61,7 +64,10 @@ const RootStack = createStackNavigator(
     AnimatedComponent,
     SetNativeProps,
     D3Interpolate,
-    D3Svg
+    D3Svg,
+    Point99Cliff,
+    AnimateHidden,
+    PointerEventHandling
   },
   {
     initialRouteName: 'Main',

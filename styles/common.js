@@ -52,5 +52,13 @@ export default StyleSheet.create({
   fakeContent: {
     height: 3000,
     backgroundColor: 'tomato'
+  },
+  top: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#AAA'
+  },
+  center: {
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });

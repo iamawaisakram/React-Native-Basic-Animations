@@ -73,6 +73,15 @@ const pages = [
   },
   {
     name: 'D3Svg'
+  },
+  {
+    name: 'Point99Cliff'
+  },
+  {
+    name: 'AnimateHidden'
+  },
+  {
+    name: 'PointerEventHandling'
   }
 ];
 
